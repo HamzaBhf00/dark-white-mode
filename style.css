@@ -1,0 +1,49 @@
+/*Inicio del icono*/
+i {
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 90px;
+    right: 150px;
+    transform: translate(-50%, -50%);
+}
+/*Fin del icono*/
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+body {
+    font: 1em sans-serif;
+    max-width: 600px;
+    margin-left: 150px ;
+    margin-top: 50px;
+
+}
+
+.form-class {
+    margin-top: 1em;
+}
+
+.form-class>input,
+.form-class>textarea,
+.form-class>select {
+    display: block;
+    width: 100%;
+}
+
+.form-class>input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+p.error-feedback {
+    color: red;
+    font-size: small;
+    margin: 0;
+}
+
+.error>input {
+    border-color: red;
+}
